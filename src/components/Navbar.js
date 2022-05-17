@@ -14,8 +14,8 @@ const Navbar = () => {
                 <button>nav 5</button>
             </div>
             <div class="right">
-                <button>log in</button>
-                <button>sign up here</button>
+                <button class="white">log in</button>
+                <button class="blue">sign up here</button>
             </div>
         </div>
     )
