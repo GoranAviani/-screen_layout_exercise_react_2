@@ -13,7 +13,7 @@
 .info{
     display: grid;
     grid-row: 5 / span 1;
-    grid-column: 4 / span 7;
+    grid-column: 12 / span 7;
     grid-gap: 10px;
 }
 
@@ -33,7 +33,7 @@
 .infoButtons{
     display: grid;
     grid-row: 6 / span 1;
-    grid-column: 4 / span 4;
+    grid-column: 12 / span 4;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
