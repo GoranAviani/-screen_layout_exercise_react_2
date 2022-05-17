@@ -4,7 +4,7 @@ import './Content.css'
 const Content = () => {
 
     return (
-        <body>
+        <div class="content">
             <div class="info">
                 <div class="infoTitle">
                     This is Info Title
@@ -18,7 +18,7 @@ const Content = () => {
                     <button class="transparent">Transparent button</button>
                 </div>
             </div>
-        </body>
+            </div>
     )
 }
 
