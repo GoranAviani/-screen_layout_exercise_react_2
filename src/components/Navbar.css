@@ -4,10 +4,21 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "left right";
+    justify-content: space-between;
 }
 
+.logo{
+    width: 80px;
+}
 
+.navbar.h2{
+    display: flex;
+}
 
-.navbar button{
+.navbar.left{
+    grid-area: left;
+}
 
+.navbar.right{
+    grid-area: right;
 }
