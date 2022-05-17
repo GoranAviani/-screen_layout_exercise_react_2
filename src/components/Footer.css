@@ -1,4 +1,18 @@
 .footer{
     background: #282c34;
-    height: 12vh;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+.footer button {
+    margin: 15px;
+    color: red;
+    border: none;
+    background: none;
 }
