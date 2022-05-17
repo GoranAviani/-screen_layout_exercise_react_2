@@ -1,6 +1,6 @@
 
 .content {
-    height: 80vh;
+    height: 78vh;
     background-image: url("https://source.unsplash.com/random/300x300?v1");
     background-size: cover;
     display: grid;
@@ -37,11 +37,22 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+.infoButtons2 {
+    display: grid;
+    grid-row: 7 / span 1;
+    grid-column: 12 / span 4;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.infoButtons2 button {
+    font-size: 20px;
+    border: 2px solid black;
+}
 
 .infoButtons button {
     font-size: 20px;
     border: 2px solid black;
-
 }
 
 .redButton {

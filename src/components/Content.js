@@ -20,6 +20,10 @@ const Content = () => {
                 <button className="redButton">Red button</button>
                 <button className="ghostButton">Ghoooost button</button>
             </div>
+            <div className="infoButtons2">
+                <button className="redButton">Red button</button>
+                <button className="ghostButton">Ghoooost button</button>
+            </div>
         </div>
     )
 }
