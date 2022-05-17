@@ -1,5 +1,24 @@
-body{
-    height: 80vh;
+
+.content{
+        height: 80vh;
     background-image: url("https://source.unsplash.com/random/300x300?v1");
     background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+
+}
+
+.info{
+    display: grid;
+    grid-row: 3;
+    grid-column: 2 / span 2;
+    grid-gap: 20px;
+}
+
+.infoTitle{
+    font-size: 30px;
+    color: wheat;
+    font-weight: bold;
 }
