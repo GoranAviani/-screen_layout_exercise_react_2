@@ -11,7 +11,6 @@ const Navbar = () => {
                 <button>nav 2 is this</button>
                 <button>nav 3</button>
                 <button>nav 4 here</button>
-                <button>nav 5</button>
             </div>
             <div class="right">
                 <button class="white">log in</button>
