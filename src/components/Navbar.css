@@ -3,9 +3,10 @@
     background: wheat;
     padding: 10px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: "left right";
-    align-items: center;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-areas: "left center right";
+    align-items: flex-end;
+    padding-bottom: 20px;
 }
 
 .logo{
@@ -26,8 +27,7 @@
 
 .right{
     display: grid;
-        grid-auto-flow: column;
-
+    grid-auto-flow: column;
     grid-gap: 10px;
     margin-left: auto;
     grid-area: right;
@@ -35,8 +35,26 @@
 
 
 .left button{
-
+    border: none;
     background: none;
     color: black;
     font-size: 20px;
+    align-self: flex-end;
+}
+
+.right button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+
+}
+
+.white{
+    background: white;
+}
+
+.blue{
+    background: blue;
+        color: yellow;
+
 }
