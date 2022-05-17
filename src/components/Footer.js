@@ -10,7 +10,6 @@ const Footer = () => {
             <button>this is button 3</button>
             <button>button 4</button>
             <button>btn</button>
-
         </div>
     )
 }
