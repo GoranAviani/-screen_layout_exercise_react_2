@@ -4,8 +4,14 @@ import React from 'react';
 const Footer = () => {
 
     return (
-        <div>
-            footer
+        <div class="footer">
+            <button>btn 1</button>
+            <button>btn 2</button>
+            <button>this is button 3</button>
+            <button>button 4</button>
+            <button>buttn 5</button>
+            <button>btn 6</button>
+
         </div>
     )
 }
