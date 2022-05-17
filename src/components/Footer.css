@@ -1,11 +1,10 @@
-.footer{
+.footer {
     background: #282c34;
     height: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-
 
 
 }
