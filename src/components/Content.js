@@ -14,9 +14,9 @@ const Content = () => {
                     lets hope there is enoug of text here lets hope there is enoug of text here lets hope there is enoug of text here
                     lets hope there is enoug of text here
                 </div>
-                <div class="buttons">
-                    <button class="red">Red button</button>
-                    <button class="ghost">Ghoooost button</button>
+                <div class="infoButtons">
+                    <button class="redButton">Red button</button>
+                    <button class="ghostButton">Ghoooost button</button>
                 </div>
             </div>
             </div>
