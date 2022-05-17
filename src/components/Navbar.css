@@ -3,25 +3,25 @@
     background: wheat;
     padding: 10px;
     display: grid;
-    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-columns: 3fr 5fr 1fr;
     grid-template-areas: "left center right";
     align-items: flex-end;
     padding-bottom: 20px;
 }
 
+.navbar button{
+    font-size: 15px;
+}
+
 .logo{
-    width: 110px;
+    width: 120px;
     height: 50px;
 }
 
-.navbar.h2{
-    display: flex;
-}
 
 .left{
     display: grid;
     grid-area: left;
-    grid-gap: 10px;
     grid-auto-flow: column;
 }
 
@@ -38,13 +38,11 @@
     border: none;
     background: none;
     color: black;
-    font-size: 15px;
     align-self: flex-end;
 }
 
 .right button{
     padding: 10px;
-    font-size: 15px;
     border-radius: 40px;
 
 }
