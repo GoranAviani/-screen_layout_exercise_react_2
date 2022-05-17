@@ -14,7 +14,7 @@
     display: grid;
     grid-row: 3;
     grid-column: 2 / span 2;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 .infoTitle{
