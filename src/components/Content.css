@@ -1,0 +1,5 @@
+body{
+    height: 80vh;
+    background-image: url("https://source.unsplash.com/random/300x300?v1");
+    background-size: cover;
+}
