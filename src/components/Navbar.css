@@ -1,15 +1,15 @@
 .navbar{
-    height: 10vh;
-    background: white;
+    height: 8vh;
+    background: wheat;
     padding: 10px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas: "left right";
-    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
-    width: 80px;
+    width: 110px;
     height: 50px;
 }
 
@@ -17,14 +17,26 @@
     display: flex;
 }
 
-.navbar.left{
-    display: block;
+.left{
+    display: grid;
     grid-area: left;
-    justify-content: space-around;
+    grid-gap: 10px;
+    grid-auto-flow: column;
 }
 
-.navbar.right{
-    display: flex;
+.right{
+    display: grid;
+        grid-auto-flow: column;
+
+    grid-gap: 10px;
+    margin-left: auto;
     grid-area: right;
-    justify-items: flex-end;
+}
+
+
+.left button{
+
+    background: none;
+    color: black;
+    font-size: 20px;
 }
