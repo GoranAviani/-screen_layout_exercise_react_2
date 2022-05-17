@@ -5,8 +5,8 @@ const Navbar = () => {
 
     return (
         <div class="navbar">
-            <div class="">
-                <h2>logo</h2>
+            <div class="left">
+                <img class="logo" alt="logos" src="https://source.unsplash.com/random/300x300?v1"/>
                 <button>nav 1</button>
                 <button>nav 2 is this</button>
                 <button>nav 3</button>
