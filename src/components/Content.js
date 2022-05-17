@@ -14,10 +14,10 @@ const Content = () => {
                     lets hope there is enoug of text here lets hope there is enoug of text here lets hope there is enoug of text here
                     lets hope there is enoug of text here
                 </div>
-                <div class="infoButtons">
-                    <button class="redButton">Red button</button>
-                    <button class="ghostButton">Ghoooost button</button>
-                </div>
+            </div>
+            <div className="infoButtons">
+                <button className="redButton">Red button</button>
+                <button className="ghostButton">Ghoooost button</button>
             </div>
             </div>
     )
